@@ -6,7 +6,7 @@ import { UserType, NoteOnUpdate } from "./App.types";
 import { nanoid } from "nanoid";
 import { useLocalStorage, writeStorage } from "@rehooks/local-storage";
 
-const LOCAL_STORAGE_KEY = "react_notes";
+const LOCAL_STORAGE_KEY = "react-notes";
 
 const App = () => {
   const notInitialRender = useRef(false);
