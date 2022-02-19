@@ -13,3 +13,5 @@ yarn server
 ```console
 yarn client
 ```
+
+Local storage data is saved under `react-notes` key. Delete it and refresh your browser for the new session.
