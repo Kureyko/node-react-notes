@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server",
+  "main": "index.ts",
+  "author": "Evgeny Kureyko",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.2",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.4.1"
+  },
+  "scripts": {
+    "start": "nodemon ./index.ts"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.5.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "notes-monorepo",
+  "version": "1.0.0",
+  "description": "React UI + Node WebSocket",
+  "main": "index.ts",
+  "author": "Evgeny Kureyko",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "client": "yarn workspace web start",
+    "server": "yarn workspace server start"
+  }
+}
